@@ -1,6 +1,6 @@
-# test.it-academy
+# DevOps course
 
-# GIT
+# 02.GIT.Local.md
 
 ```bash
   115  git init
