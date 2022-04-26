@@ -1,6 +1,6 @@
 # test.it-academy
 
-**GIT
+<h1>GIT</h1>
 
 ```bash
   115  git init
