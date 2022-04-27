@@ -1,14 +1,10 @@
 #!/bin/bash
 
-echo "Enter commit message"
-read message
-git add .
-git commit -m "${message}"
+echo "*  Push to GitHub *"
+git push origin --all
 
-for i in `git remote`;
- do
-  echo "Pushing data to remote: " $i;
-  git push $i -f;
- done
+echo "*  Push to Bitbucket  *"
+git push bitbucket --all
 
-exit 0
+echo "*  Push to GitLab  *"
+git push gitlab --all
